@@ -1,0 +1,31 @@
+h1 {
+    text-align:center;
+}
+.game_area {
+    width:1000px;
+    height:600px;
+    background-color:black;
+    padding:40px;
+    margin:0 auto;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    position: relative;
+}
+.result {
+	color:#fff;
+}
+.again_button{
+    color:#fff;
+    position: absolute;
+    font-size:24px;
+    right: 10%;
+    bottom: 10%;
+}
+img {
+    border-radius: 30px;
+	position: absolute;
+	left:50%;
+	top:50%;
+	transform:translate(-50%,-50%);
+}
