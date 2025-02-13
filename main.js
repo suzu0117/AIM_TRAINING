@@ -30,7 +30,7 @@ function randomposition() {
     const randomy = Math.random() * 560;
     enemy.style.left = `${randomx}px`;
     enemy.style.top = `${randomy}px`;
-    enemy.style.transform = `translate(0%,0%)`;
+    enemy.style.transform = `translate(-50%,-50%)`;
 }
 
 enemy.addEventListener('click', () => {
