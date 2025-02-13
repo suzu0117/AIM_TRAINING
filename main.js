@@ -42,6 +42,7 @@ enemy.addEventListener('click', () => {
 });
 
 document.querySelector('.again_button').addEventListener('click', () => {
+	document.querySelector('.result').innerText = '20個の的をクリックするまでのタイムを計測します\n中心の的をクリックするとスタートします'
     document.querySelector('.again_button').innerText = ``;
     count = 0;
     game_area.appendChild(enemy);
