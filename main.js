@@ -30,7 +30,7 @@ function randomposition() {
     const randomy = Math.random() * 560;
     enemy.style.left = `${randomx}px`;
     enemy.style.top = `${randomy}px`;
-    enemy.style.transform = `translate(-50%,-50%)`;
+    enemy.style.transform = `translate(0%,0%)`;
 }
 
 enemy.addEventListener('click', () => {
@@ -42,11 +42,10 @@ enemy.addEventListener('click', () => {
 });
 
 document.querySelector('.again_button').addEventListener('click', () => {
-    document.querySelector('.result').innerText = ``;
     document.querySelector('.again_button').innerText = ``;
     count = 0;
     game_area.appendChild(enemy);
     enemy.style.left = `50%`;
     enemy.style.top = `50%`;
-    enemy.style.transform = `translate(0%,0%)`;
+    enemy.style.transform = `translate(-50%,-50%)`;
 });
